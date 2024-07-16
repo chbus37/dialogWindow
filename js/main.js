@@ -1,11 +1,17 @@
 const dialog = document.querySelector("dialog");
 const showDialog = document.getElementById("btnShow");
-const closeDialog = document.getElementById("btnClose");
+const confirmYes = document.getElementById("btnYes");
+const confirmNo = document.getElementById("btnNo");
 
 showDialog.addEventListener("click", () => {
     dialog.showModal();
-})
+});
 
-closeDialog.addEventListener("click", () => {
+confirmYes.addEventListener("click", () => {
+    document.write("Registro Eliminado");
+});
+
+confirmNo.addEventListener("click", () => {
     dialog.close();
-})
+});
+

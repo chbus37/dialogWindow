@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dialog</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
 
     <button id="btnShow">Show Dialog</button>
     
-    <dialog>
-        <p>Ventana de Dialog</p>
-        <button id="btnClose">Close</button>
+    <dialog class="animate__animated animate__fadeIn">
+        <p>Confirma eliminar el registro?</p>
+        <button id="btnYes">Yes</button>
+        <button id="btnNo">No</button>
     </dialog>
 
 
